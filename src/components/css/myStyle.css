@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* Chris Borowski */
+
+/* ------------------------------------------------------------ */
+/* Global Styles */
+* {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ------------------------------------------------------------ */
+/* General Styles */
+
+body { 
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to bottom, #0f97ff, #a7c1fc);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.searchComp {
+    background-color: azure;
+    border:  2px solid #a7c1fc;
+    border-radius: 10px;
+}
+
+.selectComp {
+    background-color: rgb(211, 226, 226);
+    border:  2px solid #a7c1fc;
+    border-radius: 10px;
+}
+
+.bodyComp {
+    background-color: azure;
+    border:  2px solid #a7c1fc;
+    border-radius: 10px;
+}
+
+.weatherComp {
+    background-color: rgb(211, 226, 226);
+    border:  2px solid #a7c1fc;
+    border-radius: 10px;
+}
+
+.graphComp {
+    background-color: white;
+    border:  2px solid #a7c1fc;
+    border-radius: 10px;
+}
+
+.settingComp {
+    border:  2px solid #a7c1fc;
+    border-radius: 10px;
+}
+
+/* ------------------------------------------------------------ */
+/* Button Group */
+
+.btn-group button {
+    background-color: #7bd7e7;
+    border: 1px solid rgb(42, 109, 197); /* Green border */
+    border-radius: 10px;
+    padding: 10px 24px; /* Some padding */
+    margin-top: 10px;
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    transition-duration: 0.4s;
+  }
+
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+
+  .btn-group button:hover {
+    background-color: white;
+  }
